@@ -1,6 +1,6 @@
 # folsom
 
-Very simple in-memory cache(key|value) for storing and retrieving data
+Very simple in-memory key/value store for caching data
 
 [![build status](https://secure.travis-ci.org/timhudson/folsom.png)](http://travis-ci.org/timhudson/folsom)
 
