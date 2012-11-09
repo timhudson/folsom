@@ -1,0 +1,16 @@
+{
+  "name": "folsom",
+  "description": "Very simple in-memory cache(key|value) for storing and retrieving data",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/timhudson/folsom.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.3.2"
+  }
+}
