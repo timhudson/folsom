@@ -7,7 +7,7 @@ Very simple in-memory cache(key|value) for storing and retrieving data
 # example
 
 ``` js
-var folsom = require('../index.js');
+var folsom = require('folsom');
 
 // Add some data
 folsom('A Boy Named Sue', {
