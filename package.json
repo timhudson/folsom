@@ -1,6 +1,6 @@
 {
   "name": "folsom",
-  "description": "Searchable in-memory cache",
+  "description": "Searchable in-memory object cache",
   "version": "0.1.0",
   "repository": {
     "url": "git://github.com/timhudson/folsom.git"

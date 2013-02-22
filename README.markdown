@@ -1,6 +1,6 @@
 # folsom
 
-Searchable in-memory cache
+Searchable in-memory object cache
 
 [![build status](https://secure.travis-ci.org/timhudson/folsom.png)](http://travis-ci.org/timhudson/folsom)
 
