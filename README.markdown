@@ -1,23 +1,35 @@
 # folsom
 
-Very simple in-memory key/value store for caching data
+Searchable in-memory cache
 
 [![build status](https://secure.travis-ci.org/timhudson/folsom.png)](http://travis-ci.org/timhudson/folsom)
 
 # example
 
 ``` js
-var folsom = require('folsom');
+var folsom = require('../index.js')
+  , people = folsom('people')
 
-// Add some data
-folsom('A Boy Named Sue', {
-	title: 'A Boy Named Sue',
-	released: 'July 26, 1969',
-	recorded: 'February 24, 1969'
-});
+// Set searchable key
+people.index('name')
 
-// Get some data
-var song = folsom('A Boy Named Sue');
+people.add([
+  {name: 'Sue'},
+  {name: 'Suzie'},
+  {name: 'Susan'},
+  {name: 'Suzanne'},
+  {name: 'El Suzerino'},
+  {name: 'The Suzster'}
+])
+
+people.search('suz', function(err, results) {
+  // results === [
+  //   {name: 'Suzanne'},
+  //   {name: 'Suzie'},
+  //   {name: 'El Suzerino'},
+  //   {name: 'The Suzster'}
+  // ]
+})
 ```
 
 # install
