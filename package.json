@@ -1,7 +1,7 @@
 {
   "name": "folsom",
-  "description": "Very simple in-memory key/value store for caching data",
-  "version": "0.0.1",
+  "description": "Searchable in-memory cache",
+  "version": "0.1.0",
   "repository": {
     "url": "git://github.com/timhudson/folsom.git"
   },
